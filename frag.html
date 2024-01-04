@@ -1,0 +1,54 @@
+{% extends 'authentication/base_mailer.html' %}
+{% block body %}
+<!-- Welcome Salutation -->
+<tr>
+	<td style="padding:25px 30px;text-align: center;font-size: 26px;font-weight: 600;color:#66c0f4;
+	text-transform: uppercase;font-style: italic;">
+	</td>
+  </tr>
+  <!-- User Msg -->
+  <tr>
+	<td style="padding:10px 30px;margin:0;text-align:left;">
+		<p>Hi {{username}},</p>
+	</td>
+  </tr>
+  <tr>
+	<td style="padding:10px 30px;margin:0;text-align:left;">
+     		<p><b>Your game has been scheduled Which is best of 1.</p>	
+	</td>
+  </tr>
+  <tr>
+	<td style="padding:10px 30px;margin:0;text-align:left;">
+		<p><b>Join this lobby to confirm the participation.</b></p>
+	</td>
+  </tr>
+  <tr>
+        <td style="padding:10px 30px;margin:0;text-align:left;">
+        	<p><b>Your Lobby Link: </b> https://alpha.playtonia.com/lobby/{{lobby_id}}</p>
+	</td>
+  </tr>
+  <tr>
+	<td style="padding:10px 30px;margin:0;text-align:left;">
+		<p>Please make sure to join the discord channel to contact the admins.</p>
+	</td>
+  </tr>
+  <tr>
+	<td style="padding:10px 30px;margin:0;text-align:left;">
+		<p><b>Discord Channel</b> -  https://discordapp.com/invite/NqqR9kG</p>
+	</td>
+  </tr>
+  <tr>
+        <td style="padding:10px 30px;margin:0;text-align:left;">
+        	<p><b>Please Note:</b></p>
+		<p>1) Please state your team name as soon as you join the discord channel.</p>
+		<p>2) Make sure every team member has downloaded the moss and activate it while playing the game and submit the moss recordings when the admin asks you to.</p>
+	</td>
+  </tr>
+  <tr>
+	<td style="padding:10px 30px;margin:0;text-align:left;">
+		<p><b>Official Rulebook Link - http://sb.playtonia.com/guides/R6S%20RGN.pdf</b></p>
+</td>
+</tr>
+
+  </tr>
+{% endblock %}

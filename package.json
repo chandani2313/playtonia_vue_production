@@ -1,0 +1,52 @@
+{
+  "name": "playtonia",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/locales/**/*.json'"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "core-js": "^3.21.1",
+    "cropperjs": "^1.5.12",
+    "vue": "^2.6.14",
+    "vue-advanced-cropper": "^0.16.10",
+    "vue-avatar-cropper": "^1.0.9",
+    "vue-country-flag": "^2.3.2",
+    "vue-country-region-select": "^2.0.16",
+    "vue-cropperjs": "^4.2.0",
+    "vue-google-signin-button": "^1.0.4",
+    "vue-i18n": "^8.27.1",
+    "vue-moment": "^4.1.0",
+    "vue-notification": "^1.3.20",
+    "vue-phone-number-input": "^1.1.12",
+    "vue-progressbar": "^0.7.5",
+    "vue-router": "^3.5.3",
+    "vue-step": "^1.3.0",
+    "vue-step-progress": "^0.3.7",
+    "vue-tour": "^1.6.0",
+    "vuejs-dialog": "^1.4.2",
+    "vuejs-noty": "^0.1.4",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@intlify/vue-i18n-loader": "^1.1.0",
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-plugin-eslint": "~4.2.0",
+    "@vue/cli-plugin-router": "~4.2.0",
+    "@vue/cli-plugin-vuex": "~4.2.0",
+    "@vue/cli-service": "~4.2.0",
+    "@vue/eslint-config-airbnb": "^5.3.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-vue": "^6.1.2",
+    "sass": "^1.49.11",
+    "sass-loader": "^8.0.2",
+    "vue-cli-plugin-i18n": "~1.0.1",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
